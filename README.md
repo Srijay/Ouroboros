@@ -18,6 +18,18 @@ conda activate ouroboros
 # install PyTorch with pip
 pip install torch==2.0.0+cu117 torchvision==0.15.1+cu117 -f https://download.pytorch.org/whl/torch_stable.html
 ```
+
+# Download data and extract patches
+
+Download whole slide images from [here](https://drive.google.com/drive/folders/1onYsDRu6DbmxwmGHu0hY4cePKvK2YHyg?usp=sharing), create a folder named 'images' inside the 'data' folder, and run the script: 
+
+```
+python extract_patches.py
+```
+
+The script will create a folder named 'patches' inside the 'data' folder which will have patches of size 256×256 pixels from whole slide images.
+
+
 # Training
 
 The trained weights can be downloaded [here](https://drive.google.com/drive/folders/1VbB6Ep06hlrPlBrnXSzba6mancuU1iN9?usp=sharing). Put the trained weights inside the trained_models folder. To train the model please update the hyper parameters in main.py and execute the following command:
