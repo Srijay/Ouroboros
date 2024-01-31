@@ -20,14 +20,14 @@ pip install torch==2.0.0+cu117 torchvision==0.15.1+cu117 -f https://download.pyt
 ```
 # Training
 
-To train the model please update the hyper parameters in main.py and execute the following command:
+The trained weights can be downloaded [here](https://drive.google.com/drive/folders/1VbB6Ep06hlrPlBrnXSzba6mancuU1iN9?usp=sharing). Put the trained weights inside the trained_models folder. To train the model please update the hyper parameters in main.py and execute the following command:
 
 ```
 python main.py --mode train
 ```
 
 # Testing 
-To test the model please update the hyper parameters in config.txt, give appropriate paths, and execute the following command:
+To test the model, execute the following command:
 
 ```
 python main.py --mode test --batch_size 1
