@@ -5,7 +5,6 @@ import biggan_layers
 import functools
 from torch.nn import init
 import torch.optim as optim
-from bilinear import crop_bbox_batch
 from layers import GlobalAvgPool, Flatten, get_activation, build_cnn
 
 
