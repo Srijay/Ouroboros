@@ -21,7 +21,7 @@ pip install torch==2.0.0+cu117 torchvision==0.15.1+cu117 -f https://download.pyt
 
 # Download data and extract patches
 
-Download whole slide images from [here](https://drive.google.com/drive/folders/1onYsDRu6DbmxwmGHu0hY4cePKvK2YHyg?usp=sharing), create a folder named 'images' inside the 'data' folder, and run the script: 
+Download whole slide images from the link which will be active upon publication. Create a folder named 'images' inside the 'data' folder, and run the script: 
 
 ```
 python extract_patches.py
