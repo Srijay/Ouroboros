@@ -8,7 +8,12 @@ This repository contains code for using Ouroboros, our generative-predictive mod
 Scroll down to the bottom to find instructions on downloading our pretrained weights 
 
 # Set Up Environment
+
+Clone the repository, and execute the following commands to set up the environment.
+
 ```
+cd Ouroboros
+
 # create base conda environment
 conda env create -f environment.yml
 
