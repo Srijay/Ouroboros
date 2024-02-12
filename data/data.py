@@ -71,7 +71,7 @@ class HyperionDataset(Dataset):
 
         image_id = spot_id.split("-")[2]
 
-        loc_id = self.hyperion_features[(self.hyperion_features['VisSpot'] == spot_id)].id.values[0]
+        loc_id = self.hyperion_features.loc[self.hyperion_features['VisSpot'] == spot_id, 'id'].values[0]
 
         img_name = image_id+"_"+loc_id+".png"
 
