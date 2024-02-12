@@ -26,7 +26,7 @@ pip install torch==2.0.0+cu117 torchvision==0.15.1+cu117 -f https://download.pyt
 
 # Download data and extract patches
 
-The link to download whole slide images will be active upon publication. After downloading whole slide images, create a folder named 'images' inside the 'data' folder, and run the script: 
+The batch-corrected protein expression data is given in the 'data' folder with filename protein_expression_data.csv. The link to download whole slide images will be active upon publication. After downloading whole slide images, create a folder named 'images' inside the 'data' folder, and run the script: 
 
 ```
 python extract_patches.py
