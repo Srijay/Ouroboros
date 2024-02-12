@@ -49,3 +49,7 @@ To test the model, execute the following command:
 ```
 python main.py --mode test --batch_size 1
 ```
+
+# Evaluation
+
+The scripts used to evaluate the Ouroboros framework are kept under the 'evaluation' folder.
