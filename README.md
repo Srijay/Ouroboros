@@ -26,7 +26,7 @@ pip install torch==2.0.0+cu117 torchvision==0.15.1+cu117 -f https://download.pyt
 
 # Download data and extract patches
 
-The batch-corrected protein expression data is given in the 'data' folder with filename protein_expression_data.csv. The whole slie images can be downloaded from [here](https://drive.google.com/drive/folders/1onYsDRu6DbmxwmGHu0hY4cePKvK2YHyg?usp=sharing), and put it in the folder 'images' inside the 'data' folder. Run the script to extract patches: 
+The batch-corrected protein expression data is given in the 'data' folder with filename 'protein_expression_data.csv'. The whole slie images can be downloaded from [here](https://drive.google.com/drive/folders/1onYsDRu6DbmxwmGHu0hY4cePKvK2YHyg?usp=sharing), and put it in the folder 'images' inside the 'data' folder. Run the script to extract patches: 
 
 ```
 python extract_patches.py
