@@ -37,7 +37,7 @@ The script will create a folder named 'patches' inside the 'data' folder which w
 
 # Training
 
-The trained weights can be downloaded [here](https://drive.google.com/drive/folders/1VbB6Ep06hlrPlBrnXSzba6mancuU1iN9?usp=sharing). Put the trained weights inside the trained_models folder. To train the model please update the hyper parameters in main.py and execute the following command:
+The trained weights can be downloaded [here](https://drive.google.com/drive/folders/1BteFCUhSTv27jLSUmZv-HP03QvZ82PG2?usp=sharing). Put the trained weights inside the trained_models folder. To train the model please update the hyper parameters in main.py and execute the following command:
 
 ```
 python main.py --mode train
