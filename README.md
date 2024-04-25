@@ -57,4 +57,4 @@ The scripts used to evaluate the Ouroboros framework are kept under the 'evaluat
 
 # License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Srijay/Ouroboros/blob/main/LICENSE.txt) file for details.
+This project is licensed under the CC BY-NC License - see the [LICENSE](https://github.com/Srijay/Ouroboros/blob/main/LICENSE.txt) file for details.
