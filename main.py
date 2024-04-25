@@ -28,7 +28,7 @@ from combat.pycombat import pycombat
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--image_dir',
-                    default=r'F:\Datasets\RA\SpecTX\Srijay\patches\patches_256')
+                    default=r'./data/patches_256')
 
 # Optimization hyperparameters
 parser.add_argument('--batch_size', default=16, type=int)
@@ -67,9 +67,9 @@ parser.add_argument('--experimentname', default='hyperion_generation_fromsinglev
 parser.add_argument('--output_dir', default=os.path.join('./output'))
 parser.add_argument('--checkpoint_name', default='model.pt')
 
-parser.add_argument('--checkpoint_path', default='./output/hyperion_generation_fromsinglevector_biggan_3_A/model/model.pt')
+parser.add_argument('--checkpoint_path', default='./trained_models/hyperion_generation_fromsinglevector_biggan_3_A/model/model.pt')
 parser.add_argument('--restore_from_checkpoint', default=True, type=bool_flag)
-parser.add_argument('--test_output_dir', default=os.path.join(r'F:\Datasets\RA\SpecTX\Srijay\results\generation\hyperion_generation_fromsinglevector_biggan_3_A'))
+parser.add_argument('--test_output_dir', default=os.path.join(r'./output'))
 
 # If you want to test model, set mode to test, or gradio
 parser.add_argument('--mode', default='train', type=str)
